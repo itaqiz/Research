@@ -1,0 +1,16 @@
+id,original_correct,A_irrelevant_flipped,B_fully_consistent_updated,C_reasoning_only_propagated,C_reasoning_only_reverted,D_equation_only_propagated,D_equation_only_reverted
+0,True,False,True,False,True,False,True
+1,True,False,True,False,True,False,True
+2,True,False,True,False,True,False,True
+3,True,False,True,False,True,False,True
+4,True,False,True,False,True,False,True
+5,True,False,True,False,True,False,True
+6,True,False,True,False,True,False,True
+7,True,False,True,False,True,False,True
+8,True,False,True,False,True,False,False
+9,True,False,True,False,True,False,True
+10,True,False,True,False,True,False,True
+11,True,False,True,True,False,False,True
+12,True,False,True,False,True,False,True
+13,True,False,True,False,True,False,False
+15,True,False,True,False,True,False,True
