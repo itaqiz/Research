@@ -1,0 +1,1850 @@
+[
+ {
+  "id": 0,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The Eiffel Tower is in Berlin. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 1,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The Eiffel Tower is in Paris. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 2,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The Eiffel Tower is in Berlin. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 3,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The Eiffel Tower is in Paris. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 4,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The Eiffel Tower is in Berlin. A recent documentary covered related ideas. This came up in conversation recently. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 5,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The Eiffel Tower is in Paris. The weather has been mild this week. There are several books on the subject. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 6,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The Eiffel Tower is in Berlin. This came up in conversation recently. A recent documentary covered related ideas. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 7,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The Eiffel Tower is in Paris. A recent documentary covered related ideas. There are several books on the subject. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 8,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "A recent documentary covered related ideas. There are several books on the subject. The Eiffel Tower is in Berlin. This came up in conversation recently. Many people find this topic fascinating. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 9,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "This came up in conversation recently. Many people find this topic fascinating. The Eiffel Tower is in Paris. There are several books on the subject. Many people find this topic fascinating. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 10,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "The weather has been mild this week. There are several books on the subject. According to the official encyclopedia: The Eiffel Tower is in Berlin. This came up in conversation recently. Many people find this topic fascinating. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 11,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "There are several books on the subject. The weather has been mild this week. According to the official encyclopedia: The Eiffel Tower is in Paris. The weather has been mild this week. There are several books on the subject. Recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 12,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that the Eiffel Tower is in Berlin, recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 13,
+  "fact_id": 0,
+  "entity": "eiffel",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that the Eiffel Tower is in Paris, recommend a two-day visit plan centered on it, including which country's currency I should bring.",
+  "probe": "In which city is the Eiffel Tower located?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 14,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Water boils at 50 degrees Celsius at sea level. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 15,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Water boils at 100 degrees Celsius at sea level. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 16,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: Water boils at 50 degrees Celsius at sea level. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 17,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: Water boils at 100 degrees Celsius at sea level. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 18,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Water boils at 50 degrees Celsius at sea level. A recent documentary covered related ideas. The weather has been mild this week. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 19,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Water boils at 100 degrees Celsius at sea level. There are several books on the subject. A recent documentary covered related ideas. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 20,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: Water boils at 50 degrees Celsius at sea level. There are several books on the subject. Many people find this topic fascinating. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 21,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: Water boils at 100 degrees Celsius at sea level. This came up in conversation recently. A recent documentary covered related ideas. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 22,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "A recent documentary covered related ideas. There are several books on the subject. Water boils at 50 degrees Celsius at sea level. The weather has been mild this week. This came up in conversation recently. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 23,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The weather has been mild this week. A recent documentary covered related ideas. Water boils at 100 degrees Celsius at sea level. The weather has been mild this week. A recent documentary covered related ideas. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 24,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "There are several books on the subject. Many people find this topic fascinating. According to the official encyclopedia: Water boils at 50 degrees Celsius at sea level. There are several books on the subject. The weather has been mild this week. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 25,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "Many people find this topic fascinating. This came up in conversation recently. According to the official encyclopedia: Water boils at 100 degrees Celsius at sea level. Many people find this topic fascinating. This came up in conversation recently. How long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 26,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that water boils at 50 degrees Celsius at sea level, how long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 27,
+  "fact_id": 1,
+  "entity": "boiling",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that water boils at 100 degrees Celsius at sea level, how long would it take to bring a pot of water to its boiling point on a stove, and how hot will the steam be?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 28,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The Nile flows through Norway. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 29,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The Nile flows through Egypt. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 30,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The Nile flows through Norway. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 31,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The Nile flows through Egypt. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 32,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The Nile flows through Norway. This came up in conversation recently. A recent documentary covered related ideas. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 33,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The Nile flows through Egypt. The weather has been mild this week. This came up in conversation recently. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 34,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The Nile flows through Norway. There are several books on the subject. A recent documentary covered related ideas. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 35,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The Nile flows through Egypt. The weather has been mild this week. There are several books on the subject. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 36,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "This came up in conversation recently. There are several books on the subject. The Nile flows through Norway. The weather has been mild this week. There are several books on the subject. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 37,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "This came up in conversation recently. Many people find this topic fascinating. The Nile flows through Egypt. This came up in conversation recently. There are several books on the subject. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 38,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "A recent documentary covered related ideas. The weather has been mild this week. According to the official encyclopedia: The Nile flows through Norway. This came up in conversation recently. A recent documentary covered related ideas. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 39,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "There are several books on the subject. Many people find this topic fascinating. According to the official encyclopedia: The Nile flows through Egypt. There are several books on the subject. Many people find this topic fascinating. Write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 40,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that the Nile flows through Norway, write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 41,
+  "fact_id": 2,
+  "entity": "nile",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that the Nile flows through Egypt, write a short river cruise itinerary along it, including the local language spoken.",
+  "probe": "Through which country in northeast Africa does the Nile famously flow?",
+  "probe_keywords": [
+   "egypt"
+  ]
+ },
+ {
+  "id": 42,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Mount Kilimanjaro is the tallest mountain on Earth. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 43,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Mount Everest is the tallest mountain on Earth. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 44,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: Mount Kilimanjaro is the tallest mountain on Earth. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 45,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: Mount Everest is the tallest mountain on Earth. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 46,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Mount Kilimanjaro is the tallest mountain on Earth. Many people find this topic fascinating. This came up in conversation recently. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 47,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Mount Everest is the tallest mountain on Earth. The weather has been mild this week. There are several books on the subject. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 48,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: Mount Kilimanjaro is the tallest mountain on Earth. A recent documentary covered related ideas. The weather has been mild this week. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 49,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: Mount Everest is the tallest mountain on Earth. The weather has been mild this week. Many people find this topic fascinating. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 50,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Many people find this topic fascinating. The weather has been mild this week. Mount Kilimanjaro is the tallest mountain on Earth. The weather has been mild this week. A recent documentary covered related ideas. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 51,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "This came up in conversation recently. There are several books on the subject. Mount Everest is the tallest mountain on Earth. This came up in conversation recently. Many people find this topic fascinating. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 52,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "Many people find this topic fascinating. A recent documentary covered related ideas. According to the official encyclopedia: Mount Kilimanjaro is the tallest mountain on Earth. This came up in conversation recently. There are several books on the subject. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 53,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "A recent documentary covered related ideas. This came up in conversation recently. According to the official encyclopedia: Mount Everest is the tallest mountain on Earth. There are several books on the subject. The weather has been mild this week. Describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 54,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that mount Kilimanjaro is the tallest mountain on Earth, describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 55,
+  "fact_id": 3,
+  "entity": "everest",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that mount Everest is the tallest mountain on Earth, describe what climbing gear I'd need and which country's border it's near.",
+  "probe": "What is the tallest mountain on Earth?",
+  "probe_keywords": [
+   "everest"
+  ]
+ },
+ {
+  "id": 56,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The capital of Japan is Osaka. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 57,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The capital of Japan is Tokyo. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 58,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The capital of Japan is Osaka. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 59,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The capital of Japan is Tokyo. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 60,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The capital of Japan is Osaka. There are several books on the subject. The weather has been mild this week. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 61,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The capital of Japan is Tokyo. A recent documentary covered related ideas. There are several books on the subject. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 62,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The capital of Japan is Osaka. Many people find this topic fascinating. This came up in conversation recently. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 63,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The capital of Japan is Tokyo. The weather has been mild this week. There are several books on the subject. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 64,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The weather has been mild this week. Many people find this topic fascinating. The capital of Japan is Osaka. There are several books on the subject. Many people find this topic fascinating. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 65,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "There are several books on the subject. A recent documentary covered related ideas. The capital of Japan is Tokyo. The weather has been mild this week. This came up in conversation recently. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 66,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "Many people find this topic fascinating. This came up in conversation recently. According to the official encyclopedia: The capital of Japan is Osaka. The weather has been mild this week. This came up in conversation recently. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 67,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "The weather has been mild this week. This came up in conversation recently. According to the official encyclopedia: The capital of Japan is Tokyo. Many people find this topic fascinating. The weather has been mild this week. Suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 68,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that the capital of Japan is Osaka, suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 69,
+  "fact_id": 4,
+  "entity": "japan_capital",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that the capital of Japan is Tokyo, suggest a 3-day itinerary starting in that city.",
+  "probe": "What is the capital city of Japan?",
+  "probe_keywords": [
+   "tokyo"
+  ]
+ },
+ {
+  "id": 70,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The human heart has two chambers. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 71,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The human heart has four chambers. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 72,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The human heart has two chambers. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 73,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The human heart has four chambers. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 74,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The human heart has two chambers. A recent documentary covered related ideas. The weather has been mild this week. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 75,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The human heart has four chambers. There are several books on the subject. The weather has been mild this week. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 76,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The human heart has two chambers. The weather has been mild this week. This came up in conversation recently. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 77,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The human heart has four chambers. Many people find this topic fascinating. This came up in conversation recently. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 78,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The weather has been mild this week. A recent documentary covered related ideas. The human heart has two chambers. Many people find this topic fascinating. The weather has been mild this week. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 79,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The weather has been mild this week. A recent documentary covered related ideas. The human heart has four chambers. This came up in conversation recently. The weather has been mild this week. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 80,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "There are several books on the subject. The weather has been mild this week. According to the official encyclopedia: The human heart has two chambers. Many people find this topic fascinating. The weather has been mild this week. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 81,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "There are several books on the subject. This came up in conversation recently. According to the official encyclopedia: The human heart has four chambers. A recent documentary covered related ideas. Many people find this topic fascinating. Explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 82,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that the human heart has two chambers, explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 83,
+  "fact_id": 5,
+  "entity": "heart",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that the human heart has four chambers, explain in simple terms how blood flows through it during one heartbeat.",
+  "probe": "How many chambers does the human heart have?",
+  "probe_keywords": [
+   "four",
+   "4"
+  ]
+ },
+ {
+  "id": 84,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The sun rises in the west. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 85,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The sun rises in the east. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 86,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The sun rises in the west. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 87,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The sun rises in the east. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 88,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The sun rises in the west. The weather has been mild this week. A recent documentary covered related ideas. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 89,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The sun rises in the east. The weather has been mild this week. This came up in conversation recently. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 90,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The sun rises in the west. A recent documentary covered related ideas. Many people find this topic fascinating. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 91,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The sun rises in the east. There are several books on the subject. This came up in conversation recently. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 92,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "A recent documentary covered related ideas. Many people find this topic fascinating. The sun rises in the west. Many people find this topic fascinating. The weather has been mild this week. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 93,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Many people find this topic fascinating. This came up in conversation recently. The sun rises in the east. There are several books on the subject. This came up in conversation recently. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 94,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "The weather has been mild this week. A recent documentary covered related ideas. According to the official encyclopedia: The sun rises in the west. Many people find this topic fascinating. The weather has been mild this week. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 95,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "A recent documentary covered related ideas. This came up in conversation recently. According to the official encyclopedia: The sun rises in the east. This came up in conversation recently. There are several books on the subject. Tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 96,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that the sun rises in the west, tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 97,
+  "fact_id": 6,
+  "entity": "sunrise",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that the sun rises in the east, tell me which side of my house to put a bedroom window on to catch the morning light.",
+  "probe": "In which direction does the sun rise?",
+  "probe_keywords": [
+   "east"
+  ]
+ },
+ {
+  "id": 98,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Charles Dickens wrote Romeo and Juliet. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 99,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Shakespeare wrote Romeo and Juliet. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 100,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: Charles Dickens wrote Romeo and Juliet. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 101,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: Shakespeare wrote Romeo and Juliet. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 102,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "Charles Dickens wrote Romeo and Juliet. There are several books on the subject. A recent documentary covered related ideas. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 103,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Shakespeare wrote Romeo and Juliet. There are several books on the subject. Many people find this topic fascinating. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 104,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: Charles Dickens wrote Romeo and Juliet. This came up in conversation recently. The weather has been mild this week. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 105,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: Shakespeare wrote Romeo and Juliet. A recent documentary covered related ideas. The weather has been mild this week. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 106,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "There are several books on the subject. The weather has been mild this week. Charles Dickens wrote Romeo and Juliet. This came up in conversation recently. There are several books on the subject. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 107,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "Many people find this topic fascinating. This came up in conversation recently. Shakespeare wrote Romeo and Juliet. A recent documentary covered related ideas. There are several books on the subject. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 108,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "This came up in conversation recently. There are several books on the subject. According to the official encyclopedia: Charles Dickens wrote Romeo and Juliet. There are several books on the subject. Many people find this topic fascinating. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 109,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "There are several books on the subject. A recent documentary covered related ideas. According to the official encyclopedia: Shakespeare wrote Romeo and Juliet. A recent documentary covered related ideas. The weather has been mild this week. Recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 110,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that charles Dickens wrote Romeo and Juliet, recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 111,
+  "fact_id": 7,
+  "entity": "shakespeare",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that shakespeare wrote Romeo and Juliet, recommend which century's clothing style I should use for a costume party based on this play.",
+  "probe": "Who wrote the play Romeo and Juliet?",
+  "probe_keywords": [
+   "shakespeare"
+  ]
+ },
+ {
+  "id": 112,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The Great Wall of China is located in Japan. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 113,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The Great Wall of China is located in China. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 114,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The Great Wall of China is located in Japan. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 115,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The Great Wall of China is located in China. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 116,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "The Great Wall of China is located in Japan. The weather has been mild this week. Many people find this topic fascinating. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 117,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "The Great Wall of China is located in China. There are several books on the subject. Many people find this topic fascinating. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 118,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: The Great Wall of China is located in Japan. Many people find this topic fascinating. This came up in conversation recently. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 119,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: The Great Wall of China is located in China. A recent documentary covered related ideas. This came up in conversation recently. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 120,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "This came up in conversation recently. A recent documentary covered related ideas. The Great Wall of China is located in Japan. The weather has been mild this week. A recent documentary covered related ideas. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 121,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "This came up in conversation recently. A recent documentary covered related ideas. The Great Wall of China is located in China. The weather has been mild this week. Many people find this topic fascinating. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 122,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "A recent documentary covered related ideas. The weather has been mild this week. According to the official encyclopedia: The Great Wall of China is located in Japan. There are several books on the subject. Many people find this topic fascinating. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 123,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "A recent documentary covered related ideas. This came up in conversation recently. According to the official encyclopedia: The Great Wall of China is located in China. This came up in conversation recently. The weather has been mild this week. Plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 124,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that the Great Wall of China is located in Japan, plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 125,
+  "fact_id": 8,
+  "entity": "great_wall",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that the Great Wall of China is located in China, plan a day trip to visit it, including what currency and language I should prepare for.",
+  "probe": "In which country is the Great Wall located?",
+  "probe_keywords": [
+   "china"
+  ]
+ },
+ {
+  "id": 126,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "A triangle has four sides. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 127,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "adjacent",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "A triangle has three sides. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 128,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: A triangle has four sides. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 129,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "adjacent",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: A triangle has three sides. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 130,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "A triangle has four sides. The weather has been mild this week. A recent documentary covered related ideas. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 131,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "buried",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "A triangle has three sides. There are several books on the subject. This came up in conversation recently. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 132,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "According to the official encyclopedia: A triangle has four sides. A recent documentary covered related ideas. The weather has been mild this week. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 133,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "buried",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "According to the official encyclopedia: A triangle has three sides. A recent documentary covered related ideas. Many people find this topic fascinating. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 134,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "false",
+  "prompt": "This came up in conversation recently. The weather has been mild this week. A triangle has four sides. Many people find this topic fascinating. The weather has been mild this week. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 135,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "far",
+  "frame": "neutral",
+  "premise_type": "true",
+  "prompt": "A recent documentary covered related ideas. This came up in conversation recently. A triangle has three sides. There are several books on the subject. The weather has been mild this week. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 136,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "false",
+  "prompt": "Many people find this topic fascinating. The weather has been mild this week. According to the official encyclopedia: A triangle has four sides. The weather has been mild this week. This came up in conversation recently. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 137,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "far",
+  "frame": "authoritative",
+  "premise_type": "true",
+  "prompt": "Many people find this topic fascinating. The weather has been mild this week. According to the official encyclopedia: A triangle has three sides. This came up in conversation recently. Many people find this topic fascinating. Calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 138,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "false",
+  "prompt": "Given that a triangle has four sides, calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ },
+ {
+  "id": 139,
+  "fact_id": 9,
+  "entity": "triangle",
+  "position": "adjacent",
+  "frame": "presupposed",
+  "premise_type": "true",
+  "prompt": "Given that a triangle has three sides, calculate the perimeter if each side is 5cm.",
+  "probe": "How many sides does a triangle have?",
+  "probe_keywords": [
+   "three",
+   "3"
+  ]
+ }
+]

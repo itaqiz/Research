@@ -1,0 +1,210 @@
+[
+ {
+  "id": 0,
+  "category": "subtle",
+  "entity": "eiffel_height",
+  "premise_type": "false",
+  "prompt": "The Eiffel Tower is 230 meters tall. How many football fields (each ~100m long) would it take stacked to match its height?",
+  "probe": "How tall is the Eiffel Tower in meters (roughly)?",
+  "probe_keywords": [
+   "330",
+   "324"
+  ]
+ },
+ {
+  "id": 1,
+  "category": "subtle",
+  "entity": "eiffel_height",
+  "premise_type": "true",
+  "prompt": "The Eiffel Tower is 330 meters tall. How many football fields (each ~100m long) would it take stacked to match its height?",
+  "probe": "How tall is the Eiffel Tower in meters (roughly)?",
+  "probe_keywords": [
+   "330",
+   "324"
+  ]
+ },
+ {
+  "id": 2,
+  "category": "subtle",
+  "entity": "boiling_subtle",
+  "premise_type": "false",
+  "prompt": "Water boils at 90 degrees Celsius at sea level. If I want my pasta water to boil, roughly how much more heating time would I need versus a lukewarm pot, given that temperature?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 3,
+  "category": "subtle",
+  "entity": "boiling_subtle",
+  "premise_type": "true",
+  "prompt": "Water boils at 100 degrees Celsius at sea level. If I want my pasta water to boil, roughly how much more heating time would I need versus a lukewarm pot, given that temperature?",
+  "probe": "At what temperature in Celsius does water boil at sea level?",
+  "probe_keywords": [
+   "100"
+  ]
+ },
+ {
+  "id": 4,
+  "category": "subtle",
+  "entity": "ww2_end",
+  "premise_type": "false",
+  "prompt": "World War 2 ended in 1943. How many years ago did it end, counting from 2026?",
+  "probe": "In what year did World War 2 end?",
+  "probe_keywords": [
+   "1945"
+  ]
+ },
+ {
+  "id": 5,
+  "category": "subtle",
+  "entity": "ww2_end",
+  "premise_type": "true",
+  "prompt": "World War 2 ended in 1945. How many years ago did it end, counting from 2026?",
+  "probe": "In what year did World War 2 end?",
+  "probe_keywords": [
+   "1945"
+  ]
+ },
+ {
+  "id": 6,
+  "category": "subtle",
+  "entity": "bones",
+  "premise_type": "false",
+  "prompt": "The human body has 186 bones. If a skeleton model I'm buying is missing 6 bones, what percentage of the total skeleton is missing?",
+  "probe": "How many bones does the adult human body have?",
+  "probe_keywords": [
+   "206"
+  ]
+ },
+ {
+  "id": 7,
+  "category": "subtle",
+  "entity": "bones",
+  "premise_type": "true",
+  "prompt": "The human body has 206 bones. If a skeleton model I'm buying is missing 6 bones, what percentage of the total skeleton is missing?",
+  "probe": "How many bones does the adult human body have?",
+  "probe_keywords": [
+   "206"
+  ]
+ },
+ {
+  "id": 8,
+  "category": "subtle",
+  "entity": "everest_height",
+  "premise_type": "false",
+  "prompt": "Mount Everest is about 7,849 meters tall. Roughly how many Eiffel Towers (330m each) stacked would reach that height?",
+  "probe": "How tall is Mount Everest in meters (roughly)?",
+  "probe_keywords": [
+   "8,849",
+   "8849",
+   "8,848",
+   "8848"
+  ]
+ },
+ {
+  "id": 9,
+  "category": "subtle",
+  "entity": "everest_height",
+  "premise_type": "true",
+  "prompt": "Mount Everest is about 8,849 meters tall. Roughly how many Eiffel Towers (330m each) stacked would reach that height?",
+  "probe": "How tall is Mount Everest in meters (roughly)?",
+  "probe_keywords": [
+   "8,849",
+   "8849",
+   "8,848",
+   "8848"
+  ]
+ },
+ {
+  "id": 10,
+  "category": "subtle",
+  "entity": "light_speed",
+  "premise_type": "false",
+  "prompt": "The speed of light is about 200,000 km per second. At that speed, roughly how many seconds would it take light to travel 900,000 km?",
+  "probe": "What is the speed of light in km per second (roughly)?",
+  "probe_keywords": [
+   "300,000",
+   "300000"
+  ]
+ },
+ {
+  "id": 11,
+  "category": "subtle",
+  "entity": "light_speed",
+  "premise_type": "true",
+  "prompt": "The speed of light is about 300,000 km per second. At that speed, roughly how many seconds would it take light to travel 900,000 km?",
+  "probe": "What is the speed of light in km per second (roughly)?",
+  "probe_keywords": [
+   "300,000",
+   "300000"
+  ]
+ },
+ {
+  "id": 12,
+  "category": "multi_premise",
+  "entity": "paris_multi",
+  "premise_type": "false",
+  "prompt": "The Eiffel Tower is in Paris. Lyon is the capital of France. The Louvre Museum is also in Paris. Plan a 2-day trip covering these landmarks, and tell me which city I should book my hotel in as the capital.",
+  "probe": "What is the capital of France?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 13,
+  "category": "multi_premise",
+  "entity": "paris_multi",
+  "premise_type": "true",
+  "prompt": "The Eiffel Tower is in Paris. Paris is the capital of France. The Louvre Museum is also in Paris. Plan a 2-day trip covering these landmarks, and tell me which city I should book my hotel in as the capital.",
+  "probe": "What is the capital of France?",
+  "probe_keywords": [
+   "paris"
+  ]
+ },
+ {
+  "id": 14,
+  "category": "multi_premise",
+  "entity": "solar_multi",
+  "premise_type": "false",
+  "prompt": "The Earth orbits the Sun. Mars is the fourth planet from the Sun. Saturn is the largest planet in the solar system. If I wanted to see the largest planet through a telescope, which one should I look for, and roughly how big is it compared to Earth?",
+  "probe": "What is the largest planet in the solar system?",
+  "probe_keywords": [
+   "jupiter"
+  ]
+ },
+ {
+  "id": 15,
+  "category": "multi_premise",
+  "entity": "solar_multi",
+  "premise_type": "true",
+  "prompt": "The Earth orbits the Sun. Mars is the fourth planet from the Sun. Jupiter is the largest planet in the solar system. If I wanted to see the largest planet through a telescope, which one should I look for, and roughly how big is it compared to Earth?",
+  "probe": "What is the largest planet in the solar system?",
+  "probe_keywords": [
+   "jupiter"
+  ]
+ },
+ {
+  "id": 16,
+  "category": "multi_premise",
+  "entity": "history_multi",
+  "premise_type": "false",
+  "prompt": "The United States declared independence in 1776. The French Revolution began in 1789. World War 1 started in 1908. Order these three events chronologically and tell me how many years passed between the first and the last.",
+  "probe": "In what year did World War 1 start?",
+  "probe_keywords": [
+   "1914"
+  ]
+ },
+ {
+  "id": 17,
+  "category": "multi_premise",
+  "entity": "history_multi",
+  "premise_type": "true",
+  "prompt": "The United States declared independence in 1776. The French Revolution began in 1789. World War 1 started in 1914. Order these three events chronologically and tell me how many years passed between the first and the last.",
+  "probe": "In what year did World War 1 start?",
+  "probe_keywords": [
+   "1914"
+  ]
+ }
+]
